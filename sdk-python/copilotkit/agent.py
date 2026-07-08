@@ -62,5 +62,5 @@ class Agent(ABC):
         }
 
     def dict_repr(self) -> AgentDict:
-        """Dict representation of the action"""
+        """Dict representation of the agent"""
         return {"name": self.name, "description": self.description or ""}
